@@ -1,62 +1,72 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-	<title>Basic Portfolio</title>
-	
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	
- </head>
+  <meta charset="UTF-8">
+  <title>Contact | Joshua Gomez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
 <body>
 
-<header>
-	<h1 id="teal">Joshua Gomez</h1>
-	<navigation id="nav">
-	<a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
-	</navigation>
-</header>
+<div class="wrapper">
 
-<style>
-body {
-	background-image: url("hexellence.png");
-	background-repeat: repeat;
-}
-</style>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Joshua Gomez</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-<section>
-	<h2 id="about">Contact</h2>
-	<hr id="brd1"/>
-	<contactform>
-	<p>Name</p>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-	<p>Email</p>
+    </section>
 
-	<p>Message</p>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-	<p>Submit</p>
+        <a href="https://github.com/jgg88"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/joshua-gomez-a3947514a/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="https://stackoverflow.com/users/8521414/joshua"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
-	</contactform>
-</section>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 
-<aside>
-	<h1 id="connect">Connect with Me</h1>
-	<hr id="brd2"/>
-	<div class="icons">
-		<a href="https://github.com/jgg88">
-		<img src="assets/images/git.png" id="git">
-	</a>
-	<a href="https://www.linkedin.com/in/joshua-gomez-a3947514a/">
-		<img src="assets/images/linkedin.png" id="linked">
-	</a>
-	<a href="https://stackoverflow.com/users/8521414/joshua">
-		<img src="assets/images/stackoverflow.png" id="stack">
-		<a>
-	</div>
-</aside>
-
-<footer>
-
-	</footer>
+</div>
 
 </body>
+
+</html>

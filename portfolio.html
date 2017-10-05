@@ -1,54 +1,80 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Basic Portfolio</title>
-	
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!doctype html>
+<html lang="en-us">
 
- </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Joshua Gomez</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
 <body>
 
-<header>
-	<h1 id="teal">Joshua Gomez</h1>
-	<navigation id="nav">
-	<a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
-	</navigation>
-</header>
+<div class="wrapper">
 
-<style>
-body {
-	background-image: url("hexellence.png");
-	background-repeat: repeat;
-}
-</style>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Joshua Gomez</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
-<section>
-	<h2 id="about">Portfolio</h2>
-	<hr id="brd1"/>
-	
-</section>
+      <div class="work">
+        <img src="assets/images/sample1.jpg" alt="hangman">
 
-<aside>
-	<h1 id="connect">Connect with Me</h1>
-	<hr id="brd2"/>
-	<div class="icons">
-		<a href="https://github.com/jgg88">
-		<img src="assets/images/git.png" id="git">
-	</a>
-	<a href="https://www.linkedin.com/in/joshua-gomez-a3947514a/">
-		<img src="assets/images/linkedin.png" id="linked">
-	</a>
-	<a href="https://stackoverflow.com/users/8521414/joshua">
-		<img src="assets/images/stackoverflow.png" id="stack">
-		</a>
-	</div>
-</aside>
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/sample2.jpg" alt="RPG Game">
 
-<footer>
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/sample3.jpg" alt="Trivia Game">
 
-	</footer>
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/sample4.jpg" alt="Rutgers Info Widget">
 
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/sample5.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/jgg88"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/joshua-gomez-a3947514a/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="https://stackoverflow.com/users/8521414/joshua"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
+
+ </div>
+ 
 </body>
+
 </html>
